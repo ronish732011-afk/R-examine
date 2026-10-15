@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R examine - Mock Test Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. LOGIN / SIGN IN SCREEN -->
+    <div id="login-screen" class="screen active">
+        <div class="logo-container">
+            <div class="logo-badge">⚡ R examine</div>
+            <p>Your ultimate NEET & JEE preparation partner</p>
+        </div>
+        <input type="text" id="username" placeholder="Enter your Name or Email">
+        <input type="password" placeholder="Enter Password">
+        <button onclick="goToHome()">Login / Sign Up</button>
+        
+        <!-- Credit Footer -->
+        <div class="developer-credit">
+            Created by R.Ronish
+        </div>
+    </div>
+
+    <!-- 2. MAIN HOME SCREEN (Select Exam) -->
+    <div id="home-screen" class="screen">
+        <div class="logo-container">
+            <h2>Welcome to R examine</h2>
+            <p>Select your target exam:</p>
+        </div>
+        <button onclick="selectExam('JEE')">JEE (Main & Advanced)</button>
+        <button onclick="selectExam('NEET')">NEET (UG)</button>
+    </div>
+
+    <!-- 3. SUBJECT SELECTION SCREEN -->
+    <div id="subject-screen" class="screen">
+        <h2 id="selected-exam-title">Exam Subjects</h2>
+        <p>Choose a subject to proceed:</p>
+        <div id="subject-list"></div>
+        <button class="back-btn" onclick="goBackToHome()">Back</button>
+    </div>
+
+    <!-- 4. CHAPTER SELECTION SCREEN -->
+    <div id="chapter-screen" class="screen">
+        <h2 id="selected-subject-title">Chapters</h2>
+        <p>Select a chapter for the mock test:</p>
+        <div id="chapter-list"></div>
+        <button class="back-btn" onclick="goBackToSubjects()">Back</button>
+    </div>
+
+    <!-- 5. MOCK TEST SCREEN -->
+    <div id="test-screen" class="screen" style="max-width: 800px;">
+        <div class="test-header">
+            <h3 id="test-title" style="margin:0;">Mock Test</h3>
+            <div id="timer">Time Left: <span id="time-left">10:00</span></div>
+        </div>
+        
+        <div style="margin: 20px 0;">
+            <p id="q-text" style="font-size: 18px; font-weight: bold;"></p>
+            <div id="options-container" style="display:flex; flex-direction:column; gap:10px;"></div>
+        </div>
+
+        <button onclick="nextTestQuestion()">Save & Next</button>
+    </div>
+
+    <!-- 6. RESULT SCREEN -->
+    <div id="result-screen" class="screen" style="text-align: center;">
+        <h2>Test Completed!</h2>
+        <p>Your Score: <span id="final-score" style="font-size: 24px; font-weight: bold; color:var(--dark-yellow);"></span></p>
+        <button onclick="location.reload()">Back to Home</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
