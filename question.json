@@ -1,0 +1,72 @@
+{
+  "JEE": {
+    "Physics": {
+      "Mechanics": [
+        {
+          "question": "What is the dimensional formula of Universal Gravitational Constant?",
+          "options": ["M⁻¹L³T⁻²", "ML²T⁻²", "M⁻¹L²T⁻²", "ML³T⁻¹"],
+          "answer": 0
+        }
+      ],
+      "Thermodynamics": [
+        {
+          "question": "Which law of thermodynamics defines internal energy?",
+          "options": ["Zeroth Law", "First Law", "Second Law", "Third Law"],
+          "answer": 1
+        }
+      ]
+    },
+    "Chemistry": {
+      "Organic Chemistry": [
+        {
+          "question": "What is the hybridisation of carbon in methane (CH₄)?",
+          "options": ["sp", "sp²", "sp³", "dsp²"],
+          "answer": 2
+        }
+      ]
+    },
+    "Maths": {
+      "Calculus": [
+        {
+          "question": "What is the integral of e^x with respect to x?",
+          "options": ["x*e^x", "e^x + C", "ln(x)", "1/x"],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  "NEET": {
+    "Physics": {
+      "Mechanics": [
+        {
+          "question": "What is the SI unit of Force?",
+          "options": ["Joule", "Newton", "Pascal", "Watt"],
+          "answer": 1
+        }
+      ]
+    },
+    "Chemistry": {
+      "Chemical Bonding": [
+        {
+          "question": "Which molecule has a linear shape?",
+          "options": ["H₂O", "NH₃", "CO₂", "CH₄"],
+          "answer": 2
+        }
+      ]
+    },
+    "Biology": {
+      "Human Physiology": [
+        {
+          "question": "Which part of the brain controls respiration?",
+          "options": ["Cerebrum", "Cerebellum", "Medulla Oblongata", "Hypothalamus"],
+          "answer": 2
+        },
+        {
+          "question": "The functional unit of contraction of a skeletal muscle fiber is:",
+          "options": ["Sarcomere", "A-band", "I-band", "Myofibril"],
+          "answer": 0
+        }
+      ]
+    }
+  }
+}
