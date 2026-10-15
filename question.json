@@ -1,70 +1,32 @@
 {
   "JEE": {
-    "Physics": {
-      "Mechanics": [
-        {
-          "question": "What is the dimensional formula of Universal Gravitational Constant?",
-          "options": ["M⁻¹L³T⁻²", "ML²T⁻²", "M⁻¹L²T⁻²", "ML³T⁻¹"],
-          "answer": 0
-        }
-      ],
-      "Thermodynamics": [
-        {
-          "question": "Which law of thermodynamics defines internal energy?",
-          "options": ["Zeroth Law", "First Law", "Second Law", "Third Law"],
-          "answer": 1
-        }
-      ]
-    },
-    "Chemistry": {
-      "Organic Chemistry": [
-        {
-          "question": "What is the hybridisation of carbon in methane (CH₄)?",
-          "options": ["sp", "sp²", "sp³", "dsp²"],
-          "answer": 2
-        }
-      ]
-    },
     "Maths": {
-      "Calculus": [
+      "Complex Numbers": [
         {
-          "question": "What is the integral of e^x with respect to x?",
-          "options": ["x*e^x", "e^x + C", "ln(x)", "1/x"],
-          "answer": 1
+          "question": "Let x and y be real number such that 50((2x)/(1+3i) - y/(1-2i)) = 31 + 17i, i = √(-1). Then the value of 10(x - 3y) is:",
+          "options": ["20", "21", "35", "75"],
+          "answer": 2
+        },
+        {
+          "question": "Let a,b ∈ C. Let α,β be the roots of the equation x² + ax + b = 0. If β - α = √11 and β² - α² = 3i√11, then (β³ - α³)² is equal to:",
+          "options": ["160", "176", "194", "187"],
+          "answer": 2
+        },
+        {
+          "question": "Let S = {z ∈ C : z² + √6iz - 3 = 0}. Then Σ_{z∈S} z⁸ is equal to:",
+          "options": ["162", "184", "262", "324"],
+          "answer": 0
         }
       ]
     }
   },
   "NEET": {
-    "Physics": {
-      "Mechanics": [
-        {
-          "question": "What is the SI unit of Force?",
-          "options": ["Joule", "Newton", "Pascal", "Watt"],
-          "answer": 1
-        }
-      ]
-    },
-    "Chemistry": {
-      "Chemical Bonding": [
-        {
-          "question": "Which molecule has a linear shape?",
-          "options": ["H₂O", "NH₃", "CO₂", "CH₄"],
-          "answer": 2
-        }
-      ]
-    },
     "Biology": {
       "Human Physiology": [
         {
           "question": "Which part of the brain controls respiration?",
           "options": ["Cerebrum", "Cerebellum", "Medulla Oblongata", "Hypothalamus"],
           "answer": 2
-        },
-        {
-          "question": "The functional unit of contraction of a skeletal muscle fiber is:",
-          "options": ["Sarcomere", "A-band", "I-band", "Myofibril"],
-          "answer": 0
         }
       ]
     }
