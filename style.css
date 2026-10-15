@@ -1,0 +1,107 @@
+:root {
+    --primary-yellow: #FFC107;
+    --dark-yellow: #FFA000;
+    --bg-white: #FFFFFF;
+    --light-bg: #FFF9E6;
+    --text-dark: #333333;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Common Screen Styling */
+.screen {
+    display: none;
+    padding: 25px;
+    width: 90%;
+    max-width: 500px;
+    background: var(--bg-white);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    position: relative;
+    box-sizing: border-box;
+}
+
+.screen.active {
+    display: block;
+}
+
+/* Logo & Branding */
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo-badge {
+    background-color: var(--primary-yellow);
+    color: var(--text-dark);
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 50px;
+    display: inline-block;
+    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.4);
+}
+
+/* Developer Credit at bottom-left */
+.developer-credit {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-size: 11px;
+    color: #888888;
+    font-style: italic;
+}
+
+/* Form Inputs & Buttons */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: var(--primary-yellow);
+    color: var(--text-dark);
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+button:hover {
+    background-color: var(--dark-yellow);
+    color: white;
+}
+
+.back-btn {
+    background-color: #e0e0e0;
+    color: #333;
+}
+.back-btn:hover {
+    background-color: #d0d0d0;
+}
+
+/* Test Screen Header */
+.test-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary-yellow);
+    padding: 10px 15px;
+    border-radius: 6px;
+}
